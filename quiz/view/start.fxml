@@ -42,5 +42,11 @@
                 onAction="#handleStart"
                 styleClass="primary-btn"
                 prefWidth="200" prefHeight="45"/>
+
+        <Label fx:id="loadingLabel"
+       text="Loading questions..."
+       visible="false"
+       managed="false"
+       style="-fx-text-fill: white; -fx-font-size: 16px;"/>
     </VBox>
 </StackPane>
