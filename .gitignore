@@ -1,3 +1,13 @@
-.DS_Store
+# Compiled files
+*.class
+
+# Build folders
+out/
 target/
-*.db
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
